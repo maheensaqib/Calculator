@@ -5,7 +5,6 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    /* font-family: 'monteserrat'; */
     background-image: url("/bg.jpg");
     background-size: cover;
 }
@@ -38,6 +37,8 @@ body {
     box-sizing: border-box;
     padding-inline-end: 0.75rem;
     font-family: "Orbitron", sans-serif;
+    overflow: auto;
+  /* white-space: nowrap */
 }
 
 .grid_container {
